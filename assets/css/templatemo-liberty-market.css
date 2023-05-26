@@ -778,9 +778,9 @@ Header Style
   left: 0;
   background-color: black;
   width: 100vw;
-  height: 100vh;
+  height: 160%;
   color: black;
-  opacity: 0.9;
+  opacity: 0.8;
   z-index: 1;
 }
 
@@ -954,7 +954,7 @@ Banner Style / Vlibras
   background-size: cover;
   padding-top: 290px;
   padding-bottom: 240px;
-  height: 100vh;
+  height: 100%;
   z-index: 0;
   /* background: linear-gradient(to bottom right, #000, darkred, #000, darkred);
   background-size: 300% 300%;
@@ -981,9 +981,9 @@ Banner Style / Vlibras
   left: 0;
   background-color: black;
   width: 100vw;
-  height: 100vh;
+  height: 200%;
   color: black;
-  opacity: 0.9;
+  opacity: 0.8;
   z-index: 1;
 }
 
@@ -2308,9 +2308,9 @@ body {
   left: 0;
   background-color: black;
   width: 100vw;
-  height: 100vh;
+  height: 160%;
   color: black;
-  opacity: 0.9;
+  opacity: 0.8;
   z-index: 1;
 }
 }
@@ -2334,9 +2334,9 @@ body {
   left: 0;
   background-color: black;
   width: 100vw;
-  height: 100vh;
+  height: 258%;
   color: black;
-  opacity: 0.9;
+  opacity: 0.8;
   z-index: 1;
 }
 
