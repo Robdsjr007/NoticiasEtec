@@ -17,9 +17,10 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
+
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
-  <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
+  <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/owl.css">
   <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -33,6 +34,23 @@ https://templatemo.com/tm-577-liberty-market
 </head>
 
 <body>
+  <!-- Scroll top & Change Mode-->
+
+  <a href="#home" class="scroll-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <a class="ChangeMode">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-moon-stars-fill"
+      viewBox="0 0 16 16">
+      <path
+        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+      <path
+        d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+    </svg>
+  </a>
+
+  <!-- Scroll top & Change Mode end -->
 
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
@@ -55,7 +73,7 @@ https://templatemo.com/tm-577-liberty-market
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="./assets/images/logop.png" href="index.html" alt="Ícone da ETEC CT">
+              <img src="./assets/images/logop.png" href="#home" alt="Ícone da ETEC CT">
             </a>
             <!-- ***** Logo End ***** -->
 
@@ -65,13 +83,13 @@ https://templatemo.com/tm-577-liberty-market
               <input type="search" class="campo-de-busca" placeholder="O que deseja localizar?" value="" name="s" />
               <button type="submit" class="busca-submit"><i class="fas fa-search"></i></button>
             </form>
-            
+
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li><a href="index.html" class="active">Início</a></li>
               <li><a href="explore.html">Explore</a></li>
               <li><a href="details.html">Detalhes</a></li>
-              <li><a href="author.html">Author</a></li>
+              <li><a href="author.html">Equipe</a></li>
               <li><a href="create.html">Criações</a></li>
             </ul>
             <a class='menu-trigger'>
@@ -86,7 +104,7 @@ https://templatemo.com/tm-577-liberty-market
   <!-- ***** Header Area End ***** -->
 
   <!-- ***** Main Banner Area Start ***** -->
-  <div class="main-banner">
+  <section class="main-banner" id="home">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -97,7 +115,7 @@ https://templatemo.com/tm-577-liberty-market
             <p>Última atualização: 25/05/23.</p>
             <div class="buttons">
               <div class="border-button">
-                <a href="explore.html">Vejas mais notícias</a>
+                <a href="#noticias">Vejas mais notícias</a>
               </div>
               <div class="main-button">
                 <a href="https://youtube.com/templatemo" target="_blank">Redes Sociais</a>
@@ -117,7 +135,7 @@ https://templatemo.com/tm-577-liberty-market
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- ***** Main Banner Area End ***** -->
 
   <div vw class="enabled">
@@ -135,7 +153,7 @@ https://templatemo.com/tm-577-liberty-market
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">
-                  <h2>Fique por dentro<em> sobre</em></h2>
+                  <h2>Fique por dentro<em> Sobre</em></h2>
                   <div class="line-dec"></div>
                 </div>
               </div>
@@ -153,7 +171,8 @@ https://templatemo.com/tm-577-liberty-market
               <div class="col-lg-2 col-sm-6">
                 <div class="item">
                   <div class="icon">
-                    <i class="fa-solid fa-futbol" style="font-size: 30px; color: darkred;"></i>                  </div>
+                    <i class="fa-solid fa-futbol" style="font-size: 30px; color: darkred;"></i>
+                  </div>
                   <h4>Esportes</h4>
                   <div class="icon-button">
                     <a href="#"><i class="fa fa-angle-right"></i></a>
@@ -163,7 +182,8 @@ https://templatemo.com/tm-577-liberty-market
               <div class="col-lg-2 col-sm-6">
                 <div class="item">
                   <div class="icon">
-                    <i class="fa-solid fa-award" style="font-size: 30px; color: darkred;"></i>                  </div>
+                    <i class="fa-solid fa-award" style="font-size: 30px; color: darkred;"></i>
+                  </div>
                   <h4>Eleições</h4>
                   <div class="icon-button">
                     <a href="#"><i class="fa fa-angle-right"></i></a>
@@ -184,7 +204,8 @@ https://templatemo.com/tm-577-liberty-market
               <div class="col-lg-2 col-sm-6">
                 <div class="item">
                   <div class="icon">
-                    <i class="fa-solid fa-graduation-cap" style="font-size: 30px; color: darkred;"></i>                  </div>
+                    <i class="fa-solid fa-graduation-cap" style="font-size: 30px; color: darkred;"></i>
+                  </div>
                   <h4>Cursos</h4>
                   <div class="icon-button">
                     <a href="#"><i class="fa fa-angle-right"></i></a>
@@ -194,7 +215,8 @@ https://templatemo.com/tm-577-liberty-market
               <div class="col-lg-2 col-sm-6">
                 <div class="item">
                   <div class="icon">
-                    <i class="fa-solid fa-magnifying-glass-dollar" style="font-size: 30px; color: darkred;"></i>                  </div>
+                    <i class="fa-solid fa-magnifying-glass-dollar" style="font-size: 30px; color: darkred;"></i>
+                  </div>
                   <h4>Vagas</h4>
                   <div class="icon-button">
                     <a href="#"><i class="fa fa-angle-right"></i></a>
@@ -204,68 +226,37 @@ https://templatemo.com/tm-577-liberty-market
             </div>
           </div>
         </div>
-        <div class="col-lg-12">
+        <section class="col-lg-12" id="noticias">
           <div class="collections">
-            <div class="row">
+            <section class="row" id="noticias">
               <div class="col-lg-12">
                 <div class="section-heading">
-                  <h2>Explore Some Hot <em>Collections</em> In Market.</h2>
+                  <h2>Princípais <em>Notícias</em> da semana.</h2>
                   <div class="line-dec"></div>
                 </div>
               </div>
               <div class="col-lg-12">
-                <div class="owl-collection owl-carousel">
-                  <div class="item">
-                    <img src="assets/images/collection-01.jpg" alt="">
-                    <div class="down-content">
-                      <h4>Mutant Bored Ape Yacht Club</h4>
-                      <span class="collection">Items In Collection:<br><strong>310/340</strong></span>
-                      <span class="category">Category:<br><strong>Digital Crypto</strong></span>
-                      <div class="main-button">
-                        <a href="explore.html">Explore Mutant</a>
-                      </div>
-                    </div>
+                <div class="grid3">
+                  <div class="grid3-item">
+                    <img src="/assets/images/spf.png" alt="Apresentação SPF">
+                    <p>Última SPF do ano, ou para sempre?</p>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/collection-01.jpg" alt="">
-                    <div class="down-content">
-                      <h4>Bored Ape Kennel Club</h4>
-                      <span class="collection">Items In Collection:<br><strong>324/324</strong></span>
-                      <span class="category">Category:<br><strong>Visual Art</strong></span>
-                      <div class="main-button">
-                        <a href="explore.html">Explore Bored Ape</a>
-                      </div>
-                    </div>
+                  <div class="grid3-item">
+                    <img src="./assets/images/debate.png" alt="Sala de debate">
+                    <p>Primeiro debate após período pandêmico...</p>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/collection-01.jpg" alt="">
-                    <div class="down-content">
-                      <h4>Genesis Collective Statue</h4>
-                      <span class="collection">Items In Collection:<br><strong>380/394</strong></span>
-                      <span class="category">Category:<br><strong>Music Art</strong></span>
-                      <div class="main-button">
-                        <a href="explore.html">Explore Genesis</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="assets/images/collection-01.jpg" alt="">
-                    <div class="down-content">
-                      <h4>Worldwide Artwork Ground</h4>
-                      <span class="collection">Items In Collection:<br><strong>426/468</strong></span>
-                      <span class="category">Category:<br><strong>Blockchain</strong></span>
-                      <div class="main-button">
-                        <a href="explore.html">Explore Worldwide</a>
-                      </div>
-                    </div>
+                  <div class="grid3-item">
+                    <img src="../assets/images/cheers.png" alt="Cheers no TECSESP">
+                    <p>Cheers da CT, são destaques no evento!</p>
                   </div>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
-        </div>
       </div>
     </div>
+  </div>
+  </div>
   </div>
 
   <div class="create-nft">
@@ -273,13 +264,13 @@ https://templatemo.com/tm-577-liberty-market
       <div class="row">
         <div class="col-lg-8">
           <div class="section-heading">
-            <h2>Create Your NFT & Put It On The Market.</h2>
             <div class="line-dec"></div>
+            <h2>Compartilhe suas Notícias no ETEC CT.</h2>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="main-button">
-            <a href="create.html">Create Your NFT Now</a>
+            <a href="create.html">Publique suas Notícias Agora</a>
           </div>
         </div>
         <div class="col-lg-4">
@@ -290,9 +281,9 @@ https://templatemo.com/tm-577-liberty-market
             <div class="icon">
               <img src="assets/images/icon-02.png" alt="">
             </div>
-            <h4>Set Up Your Wallet</h4>
-            <p>NFT means Non-Fungible Token that are used in digital cryptocurrency markets. There are many different
-              kinds of NFTs in the industry.</p>
+            <h4>Envie suas Notícias</h4>
+            <p>Compartilhe as últimas notícias, eventos e informações relevantes relacionadas à ETEC CT com outros
+              visitantes do site.</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -303,10 +294,9 @@ https://templatemo.com/tm-577-liberty-market
             <div class="icon">
               <img src="assets/images/icon-04.png" alt="">
             </div>
-            <h4>Add Your Digital NFT</h4>
-            <p>There are 5 different HTML pages included in this NFT <a href="https://templatemo.com/page/1"
-                target="_blank" rel="nofollow">website template</a>. You can edit or modify any section on any page as
-              you required.</p>
+            <h4>Mostre seu Talento Jornalístico</h4>
+            <p>Seja um repórter virtual e compartilhe suas perspectivas, opiniões e análises sobre os acontecimentos da
+              ETEC CT e do mundo.</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -314,10 +304,9 @@ https://templatemo.com/tm-577-liberty-market
             <div class="icon">
               <img src="assets/images/icon-06.png" alt="">
             </div>
-            <h4>Sell Your NFT &amp; Make Profit</h4>
-            <p>If you would like to support our TemplateMo website, please visit <a rel="nofollow"
-                href="https://templatemo.com/contact" target="_parent">our contact page</a> to make a PayPal
-              contribution. Thank you.</p>
+            <h4>Conecte-se com a Comunidade</h4>
+            <p>Junte-se a uma comunidade apaixonada por notícias e amplie o alcance das suas histórias, inspirando e
+              informando outras pessoas.</p>
           </div>
         </div>
       </div>
@@ -500,8 +489,10 @@ https://templatemo.com/tm-577-liberty-market
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Copyright © 2023 <a href="http://www.etecct.com.br/" target="_blank">CPS & Etec Cidade Tiradentes</a>. All rights reserved.
-            Designed by <a target="_blank" href="https://www.instagram.com/rob.css/">Rob</a>, <a target="_blank" href="https://www.instagram.com/daniel.uik/">Daniel</a> and Developer´s team</p>
+          <p>Copyright © 2023 <a href="http://www.etecct.com.br/" target="_blank">CPS & Etec Cidade Tiradentes</a>. All
+            rights reserved.
+            Designed by <a target="_blank" href="https://www.instagram.com/rob.css/">Rob</a>, <a target="_blank"
+              href="https://www.instagram.com/daniel.uik/">Daniel</a> and Developer´s team</p>
         </div>
       </div>
     </div>
@@ -514,6 +505,9 @@ https://templatemo.com/tm-577-liberty-market
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
+  <script src="assets/js/scroll.js"></script>
+  <script src="assets/js/changemode.js"></script>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

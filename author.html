@@ -1,34 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="author" content="templatemo">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="author" content="templatemo">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
 
-    <title>Liberty NFT - Author Detail Page</title>
+  <title>Equipe do Site | ETEC CT</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-<!--
-
-TemplateMo 577 Liberty Market
-
-https://templatemo.com/tm-577-liberty-market
-
--->
-  </head>
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
 
 <body>
 
@@ -48,29 +42,45 @@ https://templatemo.com/tm-577-liberty-market
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="">
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="explore.html">Explore</a></li>
-                        <li><a href="details.html">Item Details</a></li>
-                        <li><a href="author.html" class="active">Author</a></li>
-                        <li><a href="create.html">Create Yours</a></li>
-                    </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="./assets/images/logop.png" href="#home" alt="Ícone da ETEC CT">
+            </a>
+            <!-- ***** Logo End ***** -->
+
+            <!-- ***** Barra de pesquisa ***** -->
+
+            <form class="form-pesquisa" role="search" method="get" action="https://www.cps.sp.gov.br/">
+              <input type="search" class="campo-de-busca" placeholder="O que deseja localizar?" value="" name="s" />
+              <button type="submit" class="busca-submit"><i class="fas fa-search"></i></button>
+            </form>
+
+            <!-- ***** Menu Start ***** -->
+            <div vw class="enabled">
+              <div vw-access-button class="active"></div>
+              <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+              </div>
             </div>
+
+
+            <ul class="nav">
+              <li><a href="index.html" class="active">Início</a></li>
+              <li><a href="explore.html">Explore</a></li>
+              <li><a href="details.html">Detalhes</a></li>
+              <li><a href="author.html">Equipe</a></li>
+              <li><a href="create.html">Criações</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
         </div>
+      </div>
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
@@ -79,15 +89,15 @@ https://templatemo.com/tm-577-liberty-market
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h6>Author Details</h6>
-          <h2>View Details For Author</h2>
-          <span>Home > <a href="#">Author</a></span>
+          <h6>Equipe do Site</h6>
+          <h2>Conheça nossa Equipe</h2>
+          <span>Início > <a href="#">Equipe</a></span>
           <div class="buttons">
             <div class="main-button">
-              <a href="explore.html">Explore Our Items</a>
+              <a href="explore.html">Explore Nossas Notícias</a>
             </div>
             <div class="border-button">
-              <a href="create.html">Create Your NFT</a>
+              <a href="create.html">Envie sua Notícia</a>
             </div>
           </div>
         </div>
@@ -95,174 +105,120 @@ https://templatemo.com/tm-577-liberty-market
     </div>
   </div>
 
-  <div class="author-page">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="author">
-            <img src="assets/images/single-author.jpg" alt="" style="border-radius: 50%; max-width: 170px;">
-            <h4>Melanie Smith <br> <a href="#">@melanie32</a></h4>
-          </div>
+  <!-- about section -->
+  <section class="w3l-about py-5">
+    <div class="container py-md-5 py-4">
+      <div class="row align-items-center">
+        <div class="col-lg-6 pr-lg-5">
+          <h3 class="title-style mb-sm-3 mb-2">Sobre Nós</h3>
+          <p class="sob">Somos uma equipe dedicada à criação de conteúdo noticioso. Estamos comprometidos em trazer
+            informações
+            relevantes e atualizadas para nossos leitores. Nosso objetivo é fornecer notícias de qualidade e envolventes
+            que abordem uma variedade de tópicos.</p>
+          <ul class="list-about-2 mt-sm-4 mt-3">
+            <li class="py-1"><i class="far fa-check-square mr-2"></i>Estamos empenhados em trazer as últimas novidades e
+              cobrir eventos importantes para mantê-lo informado. Nossa equipe é apaixonada por jornalismo e acreditamos
+              na importância de fornecer informações precisas e imparciais.</li>
+            <li class="py-2"><i class="far fa-check-square mr-2"></i>Valorizamos a sua experiência como leitor e
+              buscamos constantemente melhorar e expandir nosso conteúdo para atender às suas necessidades informativas.
+              Agradecemos pelo seu apoio contínuo e esperamos que você desfrute de nossas notícias.</li>
+            <li class="py-1"><i class="far fa-check-square mr-2"></i>"O conhecimento é poder. Fique informado!"</li>
+          </ul>
+          <a class="btn btn-style btn-style-primary-2 mt-lg-5 mt-4" href="services.html">Veja mais notícias</a>
         </div>
-        <div class="col-lg-6">
-          <div class="right-info">
-            <div class="row">
-              <div class="col-4">
-                <div class="info-item">
-                  <i class="fa fa-heart"></i>
-                  <h6>1238 <em>Likes</em></h6>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="info-item">
-                  <i class="fa fa-hand"></i>
-                  <h6>1238 <em>Likes</em></h6>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="info-item">
-                  <i class="fa fa-dollar"></i>
-                  <h6>1238 <em>Likes</em></h6>
-                </div>
+        <div class="col-lg-6 mt-lg-0 mt-5">
+          <img class="imglogo" src="assets/images/logop.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //about section -->
+
+  <!-- team section -->
+  <div class="team-area py-5" id="team">
+    <div class="container py-lg-5 py-md-4 py-2">
+      <div class="title-heading-w3 text-center mx-auto mb-sm-5 mb-4" style="max-width:700px">
+        <h3 class="title-style">Jornalistas Incríveis</h3>
+        <p class="lead mt-2">A equipe por trás das grandes notícias e desenvolvimento do site.</p>
+      </div>
+      <div class="row mt-lg-5 mt-4">
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="single-team">
+            <div class="img-area">
+              <img src="assets/images/team1.jpg" class="img-fluid radius-image" alt="">
+              <div class="social">
+                <ul class="list-inline">
+                  <li><a href="#url"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#url"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#url"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
               </div>
             </div>
-            <div class="row">
-              <div class="col-5">
-                <h5>559 Followers</h5>
-              </div>
-              <div class="col-7">
-                <div class="main-button">
-                  <a href="#">Follow @melanie32</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="section-heading">
-            <div class="line-dec"></div>
-            <h2>Melanie Smith’s <em>Items</em>.</h2>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-12">
-                <span class="author">
-                  <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-                </span>
-                <img src="assets/images/discover-03.jpg" alt="" style="border-radius: 20px;">
-                <h4>Mutant Ape Bored</h4>
-              </div>
-              <div class="col-lg-12">
-                <div class="line-dec"></div>
-                <div class="row">
-                  <div class="col-6">
-                    <span>Current Bid: <br> <strong>2.03 ETH</strong></span>
-                  </div>
-                  <div class="col-6">
-                    <span>Ends In: <br> <strong>25th Nov</strong></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="main-button">
-                  <a href="details.html">View Details</a>
-                </div>
-              </div>
+            <div class="img-text">
+              <h4 class="nom">Daniel Alves</h4>
+              <p class="sub">Subtitle goes here</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-12">
-                <span class="author">
-                  <img src="assets/images/author-02.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-                </span>
-                <img src="assets/images/discover-06.jpg" alt="" style="border-radius: 20px;">
-                <h4>Mutant Ape Bored</h4>
+        <div class="col-lg-3 col-sm-6 col-xs-12 mt-sm-0 mt-5">
+          <div class="single-team">
+            <div class="img-area">
+              <img src="assets/images/team2.jpg" class="img-fluid radius-image" alt="">
+              <div class="social">
+                <ul class="list-inline">
+                  <li><a href="#url"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#url"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#url"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
               </div>
-              <div class="col-lg-12">
-                <div class="line-dec"></div>
-                <div class="row">
-                  <div class="col-6">
-                    <span>Current Bid: <br> <strong>2.03 ETH</strong></span>
-                  </div>
-                  <div class="col-6">
-                    <span>Ends In: <br> <strong>25th Nov</strong></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="main-button">
-                  <a href="details.html">View Details</a>
-                </div>
-              </div>
+            </div>
+            <div class="img-text">
+              <h4 class="nom">Robson Dias</h4>
+              <p class="sub">Subtitle goes here</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-12">
-                <span class="author">
-                  <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-                </span>
-                <img src="assets/images/discover-05.jpg" alt="" style="border-radius: 20px;">
-                <h4>Mutant Ape Bored</h4>
+        <div class="col-lg-3 col-sm-6 col-xs-12 mt-lg-0 mt-5">
+          <div class="single-team">
+            <div class="img-area">
+              <img src="assets/images/team3.jpg" class="img-fluid radius-image" alt="">
+              <div class="social">
+                <ul class="list-inline">
+                  <li><a href="#url"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#url"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#url"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
               </div>
-              <div class="col-lg-12">
-                <div class="line-dec"></div>
-                <div class="row">
-                  <div class="col-6">
-                    <span>Current Bid: <br> <strong>2.03 ETH</strong></span>
-                  </div>
-                  <div class="col-6">
-                    <span>Ends In: <br> <strong>25th Nov</strong></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="main-button">
-                  <a href="details.html">View Details</a>
-                </div>
-              </div>
+            </div>
+            <div class="img-text">
+              <h4 class="nom">Ryan Silva</h4>
+              <p class="sub">Subtitle goes here</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-12">
-                <span class="author">
-                  <img src="assets/images/author-03.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-                </span>
-                <img src="assets/images/discover-04.jpg" alt="" style="border-radius: 20px;">
-                <h4>Mutant Ape Bored</h4>
+        <div class="col-lg-3 col-sm-6 col-xs-12 mt-lg-0 mt-5">
+          <div class="single-team">
+            <div class="img-area">
+              <img src="assets/images/team4.jpg" class="img-fluid radius-image" alt="">
+              <div class="social">
+                <ul class="list-inline">
+                  <li><a href="#url"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#url"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#url"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
               </div>
-              <div class="col-lg-12">
-                <div class="line-dec"></div>
-                <div class="row">
-                  <div class="col-6">
-                    <span>Current Bid: <br> <strong>2.03 ETH</strong></span>
-                  </div>
-                  <div class="col-6">
-                    <span>Ends In: <br> <strong>25th Nov</strong></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="main-button">
-                  <a href="details.html">View Details</a>
-                </div>
-              </div>
+            </div>
+            <div class="img-text">
+              <h4 class="nom">Rafael Lucilio e Paulo</h4>
+              <p class="sub">Subtitle goes here</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- //team section -->
 
   <div class="create-nft">
     <div class="container">
@@ -270,12 +226,12 @@ https://templatemo.com/tm-577-liberty-market
         <div class="col-lg-8">
           <div class="section-heading">
             <div class="line-dec"></div>
-            <h2>Create Your NFT & Put It On The Market.</h2>
+            <h2>Compartilhe suas Notícias no ETEC CT.</h2>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="main-button">
-            <a href="create.html">Create Your NFT Now</a>
+            <a href="create.html">Publique suas Notícias Agora</a>
           </div>
         </div>
         <div class="col-lg-4">
@@ -286,8 +242,9 @@ https://templatemo.com/tm-577-liberty-market
             <div class="icon">
               <img src="assets/images/icon-02.png" alt="">
             </div>
-            <h4>Set Up Your Wallet</h4>
-            <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4>Envie suas Notícias</h4>
+            <p>Compartilhe as últimas notícias, eventos e informações relevantes relacionadas à ETEC CT com outros
+              visitantes do site.</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -298,8 +255,9 @@ https://templatemo.com/tm-577-liberty-market
             <div class="icon">
               <img src="assets/images/icon-04.png" alt="">
             </div>
-            <h4>Add Your Digital NFT</h4>
-            <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4>Mostre seu Talento Jornalístico</h4>
+            <p>Seja um repórter virtual e compartilhe suas perspectivas, opiniões e análises sobre os acontecimentos da
+              ETEC CT e do mundo.</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -307,8 +265,9 @@ https://templatemo.com/tm-577-liberty-market
             <div class="icon">
               <img src="assets/images/icon-06.png" alt="">
             </div>
-            <h4>Sell Your NFT &amp; Make Profit</h4>
-            <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4>Conecte-se com a Comunidade</h4>
+            <p>Junte-se a uma comunidade apaixonada por notícias e amplie o alcance das suas histórias, inspirando e
+              informando outras pessoas.</p>
           </div>
         </div>
       </div>
@@ -319,15 +278,22 @@ https://templatemo.com/tm-577-liberty-market
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Copyright © 2022 <a href="#">Liberty</a> NFT Marketplace Co., Ltd. All rights reserved.
-          &nbsp;&nbsp;
-          Designed by <a title="HTML CSS Templates" rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+          <p>Copyright © 2023 <a href="http://www.etecct.com.br/" target="_blank">CPS & Etec Cidade Tiradentes</a>. All
+            rights reserved.
+            Designed by <a target="_blank" href="https://www.instagram.com/rob.css/">Rob</a>, <a target="_blank"
+              href="https://www.instagram.com/daniel.uik/">Daniel</a> and Developer´s team</p>
         </div>
       </div>
     </div>
   </footer>
 
   <!-- Scripts -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <script src="assets/js/scroll.js"></script>
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -338,5 +304,6 @@ https://templatemo.com/tm-577-liberty-market
   <script src="assets/js/tabs.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
-  </body>
+</body>
+
 </html>

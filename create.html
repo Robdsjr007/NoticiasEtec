@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="author" content="templatemo">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="author" content="templatemo">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
 
-    <title>Liberty Template - Create NFT Page</title>
+  <title>Liberty Template - Create NFT Page</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-<!--
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <!--
 
 TemplateMo 577 Liberty Market
 
 https://templatemo.com/tm-577-liberty-market
 
 -->
-  </head>
+</head>
 
 <body>
 
@@ -48,29 +49,37 @@ https://templatemo.com/tm-577-liberty-market
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="">
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="explore.html">Explore</a></li>
-                        <li><a href="details.html">Item Details</a></li>
-                        <li><a href="author.html">Author</a></li>
-                        <li><a href="create.html" class="active">Create Yours</a></li>
-                    </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="./assets/images/logop.png" href="#home" alt="Ícone da ETEC CT">
+            </a>
+            <!-- ***** Logo End ***** -->
+
+            <!-- ***** Barra de pesquisa ***** -->
+
+            <form class="form-pesquisa" role="search" method="get" action="https://www.cps.sp.gov.br/">
+              <input type="search" class="campo-de-busca" placeholder="O que deseja localizar?" value="" name="s" />
+              <button type="submit" class="busca-submit"><i class="fas fa-search"></i></button>
+            </form>
+
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html" class="active">Início</a></li>
+              <li><a href="explore.html">Explore</a></li>
+              <li><a href="details.html">Detalhes</a></li>
+              <li><a href="author.html">Equipe</a></li>
+              <li><a href="create.html">Criações</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
         </div>
+      </div>
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
@@ -116,25 +125,29 @@ https://templatemo.com/tm-577-liberty-market
               <div class="col-lg-4">
                 <fieldset>
                   <label for="description">Description For Item</label>
-                  <input type="description" name="description" id="description" placeholder="Give us your idea" autocomplete="on" required>
+                  <input type="description" name="description" id="description" placeholder="Give us your idea"
+                    autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-4">
                 <fieldset>
                   <label for="username">Your Username</label>
-                  <input type="username" name="username" id="username" placeholder="Ex. @alansmithee" autocomplete="on" required>
+                  <input type="username" name="username" id="username" placeholder="Ex. @alansmithee" autocomplete="on"
+                    required>
                 </fieldset>
               </div>
               <div class="col-lg-6">
                 <fieldset>
                   <label for="price">Price Of Item</label>
-                  <input type="price" name="price" id="price" placeholder="Price depends on quality. Ex. 0.06 ETH" autocomplete="on" required>
+                  <input type="price" name="price" id="price" placeholder="Price depends on quality. Ex. 0.06 ETH"
+                    autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-6">
                 <fieldset>
                   <label for="royalities">Royalties</label>
-                  <input type="royalities" name="royalities" id="royalities" placeholder="Common royalties 1-25%" autocomplete="on" required>
+                  <input type="royalities" name="royalities" id="royalities" placeholder="Common royalties 1-25%"
+                    autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-4">
@@ -168,24 +181,14 @@ https://templatemo.com/tm-577-liberty-market
             <img src="assets/images/author-02.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
             <h6>Kataleya Smithee<br><a href="#">@kataleey</a></h6>
           </span>
-          <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="row">
-            <div class="col-3">
-              <span class="bid">
-                Current Bid<br><strong>0.06 ETH</strong><br><em>($8055,35)</em>
-              </span>
-            </div>
-            <div class="col-4">
-              <span class="owner">
-                Owner<br><strong>Alan Smithee</strong><br><em>(@asmithee)</em>
-              </span>
-            </div>
-            <div class="col-5">
-              <span class="ends">
-                Ends In<br><strong>3D 05H 20M 58S</strong><br><em>(January 22nd, 2021)</em>
-              </span>
-            </div>
-          </div>
+          <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua.Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua.Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua.</p>
         </div>
       </div>
     </div>
@@ -195,9 +198,10 @@ https://templatemo.com/tm-577-liberty-market
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Copyright © 2022 <a href="#">Liberty</a> NFT Marketplace Co., Ltd. All rights reserved.
-          &nbsp;&nbsp;
-          Designed by <a title="HTML CSS Templates" rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+          <p>Copyright © 2023 <a href="http://www.etecct.com.br/" target="_blank">CPS & Etec Cidade Tiradentes</a>. All
+            rights reserved.
+            Designed by <a target="_blank" href="https://www.instagram.com/rob.css/">Rob</a>, <a target="_blank"
+              href="https://www.instagram.com/daniel.uik/">Daniel</a> and Developer´s team</p>
         </div>
       </div>
     </div>
@@ -214,5 +218,6 @@ https://templatemo.com/tm-577-liberty-market
   <script src="assets/js/tabs.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
-  </body>
+</body>
+
 </html>
