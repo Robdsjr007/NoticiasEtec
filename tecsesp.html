@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+</head>
+
+<body id="home">
+
+  <!-- Scroll top & Change Mode-->
+
+  <a href="#home" class="scroll-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <a class="ChangeMode">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-moon-stars-fill"
+      viewBox="0 0 16 16">
+      <path
+        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+      <path
+        d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+    </svg>
+  </a>
+
+  <!-- Scroll top & Change Mode end -->
+
+  <!----Vlibras-->
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="../assets/images/logop.png" href="#home" alt="Ícone da ETEC CT">
+            </a>
+            <!-- ***** Logo End ***** -->
+
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html" class="active">Início</a></li>
+              <li><a href="#noticias">Notícias</a></li>
+              <li><a href="http://www.etecct.com.br/#features" target="_blank">Cursos</a></li>
+              <li><a href="https://www.vestibulinhoetec.com.br/unidades-cursos/escola.asp?c=219"
+                  target="_blank">Vagas</a></li>
+              <li><a href="author.html">Sobre Nós</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <main>
+    <article class="news-article">
+      <h2>Decepções e felicidades no TECSESP</h2>
+      <p class="content">
+        A ETEC CT, dessa vez estava mais preparada que nunca para o evento e deu pra ver claramente na performance não
+        só dos atletas, mas também da torcida, pois agora <B>tivemos</B> torcida...
+      </p>
+      <p class="date">30/05/2023</p>
+      <div class="img-container">
+        <img src="./noticia/assets/images/cheers.png" alt="Imagem da notícia">
+        <label class="date">Imagem das Cheers tirada em 2023, pela torcida.</label>
+      </div>
+      <p class="content">
+        Mas todos sabemos que infelizmente não foram todas as modalidades que se saíram bem e isso é normal acontecer,
+        principalmente quando não há estímulo da Escola em si, referente a tal modalidade. Mudanças precisam ser feitas
+        para entregarmos um resultado melhor na próxima edição, mas na última edição conseguimos ver claramente que a
+        tendência é manter o ritmo ou superar.
+      </p>
+      <p class="author"><i>-Escrito e públicado por Robson Jr</i></p>
+    </article>
+  </main>
+
+
+  <footer>
+    <p>Copyright © 2023 <a href="http://www.etecct.com.br/" target="_blank"><b>CPS & Etec Cidade Tiradentes</b></a>. All
+      rights reserved.
+      Designed by <a target="_blank" href="https://www.instagram.com/rob.css/"><b>Rob</b></a>, <a target="_blank"
+        href="https://www.instagram.com/daniel.uik/"><b>Daniel</b></a> and Developer´s team</p>
+  </footer>
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <script src="assets/js/scroll.js"></script>
+
+  <script src="../assets/js/isotope.min.js"></script>
+  <script src="../assets/js/owl-carousel.js"></script>
+
+  <script src="../assets/js/tabs.js"></script>
+  <script src="../assets/js/popup.js"></script>
+  <script src="../assets/js/custom.js"></script>
+</body>
+
+</html>

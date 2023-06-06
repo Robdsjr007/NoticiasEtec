@@ -17,9 +17,10 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
+
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
-  <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
+  <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/owl.css">
   <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -33,6 +34,27 @@ https://templatemo.com/tm-577-liberty-market
 </head>
 
 <body>
+  <!-- Scroll top & Change Mode-->
+
+  <a href="#home" class="scroll-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <a class="ChangeMode">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-moon-stars-fill" id="moon"
+      viewBox="0 0 16 16">
+      <path
+        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+      <path
+        d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-sun-fill" id="sun" style="display: none;"
+     viewBox="0 0 16 16">
+      <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+    </svg>
+  </a>
+
+  <!-- Scroll top & Change Mode end -->
 
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
@@ -55,7 +77,7 @@ https://templatemo.com/tm-577-liberty-market
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="./assets/images/logop.png" href="index.html" alt="Ícone da ETEC CT">
+              <img src="./assets/images/logop.png" href="#home" alt="Ícone da ETEC CT">
             </a>
             <!-- ***** Logo End ***** -->
 
@@ -65,14 +87,15 @@ https://templatemo.com/tm-577-liberty-market
               <input type="search" class="campo-de-busca" placeholder="O que deseja localizar?" value="" name="s" />
               <button type="submit" class="busca-submit"><i class="fas fa-search"></i></button>
             </form>
-            
+
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li><a href="index.html" class="active">Início</a></li>
-              <li><a href="explore.html">Explore</a></li>
-              <li><a href="details.html">Detalhes</a></li>
-              <li><a href="author.html">Author</a></li>
-              <li><a href="create.html">Criações</a></li>
+              <li><a href="#noticias">Notícias</a></li>
+              <li><a href="http://www.etecct.com.br/#features" target="_blank">Cursos</a></li>
+              <li><a href="https://www.vestibulinhoetec.com.br/unidades-cursos/escola.asp?c=219"
+                  target="_blank">Vagas</a></li>
+              <li><a href="author.html">Sobre Nós</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -86,7 +109,7 @@ https://templatemo.com/tm-577-liberty-market
   <!-- ***** Header Area End ***** -->
 
   <!-- ***** Main Banner Area Start ***** -->
-  <div class="main-banner">
+  <section class="main-banner" id="home">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -97,10 +120,10 @@ https://templatemo.com/tm-577-liberty-market
             <p>Última atualização: 25/05/23.</p>
             <div class="buttons">
               <div class="border-button">
-                <a href="explore.html">Vejas mais notícias</a>
+                <a href="#noticias">Vejas mais notícias</a>
               </div>
               <div class="main-button">
-                <a href="https://youtube.com/templatemo" target="_blank">Redes Sociais</a>
+                <a href="https://www.instagram.com/etecct_oficial/" target="_blank">Redes Sociais</a>
               </div>
             </div>
           </div>
@@ -108,16 +131,16 @@ https://templatemo.com/tm-577-liberty-market
         <div class="col-lg-5 offset-lg-1">
           <div class="owl-banner owl-carousel">
             <div class="item">
-              <img src="assets/images/image1b.png" alt="">
+              <img src="assets/images/image1b.png" alt="Tecsesp Futebol">
             </div>
             <div class="item">
-              <img src="assets/images/image2b.png" alt="">
+              <img src="assets/images/image2b.png" alt="Sala de debate">
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- ***** Main Banner Area End ***** -->
 
   <div vw class="enabled">
@@ -135,7 +158,7 @@ https://templatemo.com/tm-577-liberty-market
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">
-                  <h2>Fique por dentro<em> sobre</em></h2>
+                  <h2>Fique por dentro<em> Sobre</em></h2>
                   <div class="line-dec"></div>
                 </div>
               </div>
@@ -153,7 +176,8 @@ https://templatemo.com/tm-577-liberty-market
               <div class="col-lg-2 col-sm-6">
                 <div class="item">
                   <div class="icon">
-                    <i class="fa-solid fa-futbol" style="font-size: 30px; color: darkred;"></i>                  </div>
+                    <i class="fa-solid fa-futbol" style="font-size: 30px; color: darkred;"></i>
+                  </div>
                   <h4>Esportes</h4>
                   <div class="icon-button">
                     <a href="#"><i class="fa fa-angle-right"></i></a>
@@ -163,7 +187,8 @@ https://templatemo.com/tm-577-liberty-market
               <div class="col-lg-2 col-sm-6">
                 <div class="item">
                   <div class="icon">
-                    <i class="fa-solid fa-award" style="font-size: 30px; color: darkred;"></i>                  </div>
+                    <i class="fa-solid fa-award" style="font-size: 30px; color: darkred;"></i>
+                  </div>
                   <h4>Eleições</h4>
                   <div class="icon-button">
                     <a href="#"><i class="fa fa-angle-right"></i></a>
@@ -184,102 +209,107 @@ https://templatemo.com/tm-577-liberty-market
               <div class="col-lg-2 col-sm-6">
                 <div class="item">
                   <div class="icon">
-                    <i class="fa-solid fa-graduation-cap" style="font-size: 30px; color: darkred;"></i>                  </div>
+                    <i class="fa-solid fa-graduation-cap" style="font-size: 30px; color: darkred;"></i>
+                  </div>
                   <h4>Cursos</h4>
                   <div class="icon-button">
-                    <a href="#"><i class="fa fa-angle-right"></i></a>
+                    <a href="http://www.etecct.com.br/#features " target="_blank"><i class="fa fa-angle-right"></i></a>
                   </div>
                 </div>
               </div>
               <div class="col-lg-2 col-sm-6">
                 <div class="item">
                   <div class="icon">
-                    <i class="fa-solid fa-magnifying-glass-dollar" style="font-size: 30px; color: darkred;"></i>                  </div>
+                    <i class="fa-solid fa-magnifying-glass-dollar" style="font-size: 30px; color: darkred;"></i>
+                  </div>
                   <h4>Vagas</h4>
                   <div class="icon-button">
-                    <a href="#"><i class="fa fa-angle-right"></i></a>
+                    <a href="https://www.nube.com.br/top_estagios/medio_tecnico_sp_sp" target="_blank"><i
+                        class="fa fa-angle-right"></i></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-12">
+        <section class="col-lg-12" id="noticias">
           <div class="collections">
-            <div class="row">
+            <section class="row" id="noticias">
               <div class="col-lg-12">
                 <div class="section-heading">
-                  <h2>Explore Some Hot <em>Collections</em> In Market.</h2>
+                  <h2>Princípais <em>Notícias</em> da semana.</h2>
                   <div class="line-dec"></div>
                 </div>
               </div>
               <div class="col-lg-12">
-                <div class="owl-collection owl-carousel">
-                  <div class="item">
-                    <img src="assets/images/collection-01.jpg" alt="">
-                    <div class="down-content">
-                      <h4>Mutant Bored Ape Yacht Club</h4>
-                      <span class="collection">Items In Collection:<br><strong>310/340</strong></span>
-                      <span class="category">Category:<br><strong>Digital Crypto</strong></span>
-                      <div class="main-button">
-                        <a href="explore.html">Explore Mutant</a>
-                      </div>
-                    </div>
+                <div class="grid3">
+                  <div class="grid3-item spf">
+                    <a href="/spf.html">
+                      <img src="./noticia/assets/images/spf.png" alt="Apresentação SPF">
+                      <p>Última SPF do ano, ou para sempre?</p>
+                    </a>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/collection-01.jpg" alt="">
-                    <div class="down-content">
-                      <h4>Bored Ape Kennel Club</h4>
-                      <span class="collection">Items In Collection:<br><strong>324/324</strong></span>
-                      <span class="category">Category:<br><strong>Visual Art</strong></span>
-                      <div class="main-button">
-                        <a href="explore.html">Explore Bored Ape</a>
-                      </div>
-                    </div>
+                  <div class="grid3-item">
+                    <a href="/gremio.html" target="_blank">
+                      <img src="./noticia/assets/images/debate.png" alt="Sala de debate">
+                      <p>Primeiro debate após período pandêmico...</p>
+                    </a>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/collection-01.jpg" alt="">
-                    <div class="down-content">
-                      <h4>Genesis Collective Statue</h4>
-                      <span class="collection">Items In Collection:<br><strong>380/394</strong></span>
-                      <span class="category">Category:<br><strong>Music Art</strong></span>
-                      <div class="main-button">
-                        <a href="explore.html">Explore Genesis</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="assets/images/collection-01.jpg" alt="">
-                    <div class="down-content">
-                      <h4>Worldwide Artwork Ground</h4>
-                      <span class="collection">Items In Collection:<br><strong>426/468</strong></span>
-                      <span class="category">Category:<br><strong>Blockchain</strong></span>
-                      <div class="main-button">
-                        <a href="explore.html">Explore Worldwide</a>
-                      </div>
-                    </div>
+                  <div class="grid3-item">
+                    <a href="/tecsesp.html" target="_blank">
+                      <img src="./noticia/assets/images/cheers.png" alt="Cheers no TECSESP">
+                      <p>Cheers da CT, são destaques no evento!</p>
+                    </a>
                   </div>
                 </div>
               </div>
-            </div>
+            </section>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- caso queira reutilizar 
+  <div class="currently-market">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <div class="line-dec"></div>
+            <h2><em>Central</em> de Notícias</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="filters">
+            <ul>
+              <li data-filter="*" class="active">Todas</li>
+              <li data-filter=".msc">Eventos</li>
+              <li data-filter=".dig">Esportes</li>
+              <li data-filter=".blc">Projetos</li>
+              <li data-filter=".vtr">Virtual</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
+  -->
 
   <div class="create-nft">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
           <div class="section-heading">
-            <h2>Create Your NFT & Put It On The Market.</h2>
+            <h2>Descubra as Últimas Notícias no ETEC CT</h2>
+            <br>
             <div class="line-dec"></div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="main-button">
-            <a href="create.html">Create Your NFT Now</a>
+            <a href="#">Explore as Notícias mais Recentes!</a>
           </div>
         </div>
         <div class="col-lg-4">
@@ -288,11 +318,12 @@ https://templatemo.com/tm-577-liberty-market
               <h6>1</h6>
             </div>
             <div class="icon">
-              <img src="assets/images/icon-02.png" alt="">
+              <i class="fa-solid fa-magnifying-glass" alt="icone de lupa"></i>
             </div>
-            <h4>Set Up Your Wallet</h4>
-            <p>NFT means Non-Fungible Token that are used in digital cryptocurrency markets. There are many different
-              kinds of NFTs in the industry.</p>
+            <h4>Fique por Dentro dos Acontecimentos</h4>
+            <p>Acesse as últimas notícias, eventos e informações relevantes relacionadas à ETEC CT. Mantenha-se
+              atualizado com os acontecimentos mais recentes que impactam nossa instituição e a comunidade ao redor..
+            </p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -301,207 +332,38 @@ https://templatemo.com/tm-577-liberty-market
               <h6>2</h6>
             </div>
             <div class="icon">
-              <img src="assets/images/icon-04.png" alt="">
+              <i class="fa fa-unlock-alt" aria-hidden="true" alt="Cadeado destrancado"></i>
             </div>
-            <h4>Add Your Digital NFT</h4>
-            <p>There are 5 different HTML pages included in this NFT <a href="https://templatemo.com/page/1"
-                target="_blank" rel="nofollow">website template</a>. You can edit or modify any section on any page as
-              you required.</p>
+            <h4>Informe-se com Conteúdo Exclusivo</h4>
+            <p>Nossa equipe de jornalistas dedicados traz para você matérias detalhadas, entrevistas e análises
+              aprofundadas. Desfrute de conteúdo exclusivo e perspectivas únicas sobre os assuntos mais relevantes.</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="item">
             <div class="icon">
-              <img src="assets/images/icon-06.png" alt="">
+              <i class="fa fa-comment" aria-hidden="true" alt="Balão de fala"></i>
             </div>
-            <h4>Sell Your NFT &amp; Make Profit</h4>
-            <p>If you would like to support our TemplateMo website, please visit <a rel="nofollow"
-                href="https://templatemo.com/contact" target="_parent">our contact page</a> to make a PayPal
-              contribution. Thank you.</p>
+            <h4>Compartilhe Suas Opiniões</h4>
+            <p>Valorizamos a opinião de nossos leitores. Deixe seus comentários, compartilhe suas opiniões e participe
+              de discussões saudáveis sobre as notícias. Sua contribuição é importante para nós.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="currently-market">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section-heading">
-            <div class="line-dec"></div>
-            <h2><em>Items</em> Currently In The Market.</h2>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="filters">
-            <ul>
-              <li data-filter="*" class="active">All Items</li>
-              <li data-filter=".msc">Music Art</li>
-              <li data-filter=".dig">Digital Art</li>
-              <li data-filter=".blc">Blockchain</li>
-              <li data-filter=".vtr">Virtual</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="row grid">
-            <div class="col-lg-6 currently-market-item all msc">
-              <div class="item">
-                <div class="left-image">
-                  <img src="assets/images/market-01.jpg" alt="" style="border-radius: 20px; min-width: 195px;">
-                </div>
-                <div class="right-content">
-                  <h4>Music Art Super Item</h4>
-                  <span class="author">
-                    <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-                    <h6>Liberty Artist<br><a href="#">@libertyart</a></h6>
-                  </span>
-                  <div class="line-dec"></div>
-                  <span class="bid">
-                    Current Bid<br><strong>2.03 ETH</strong><br><em>($8,240.50)</em>
-                  </span>
-                  <span class="ends">
-                    Ends In<br><strong>4D 08H 15M 42S</strong><br><em>(July 24th, 2022)</em>
-                  </span>
-                  <div class="text-button">
-                    <a href="details.html">View Item Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 currently-market-item all dig">
-              <div class="item">
-                <div class="left-image">
-                  <img src="assets/images/market-01.jpg" alt="" style="border-radius: 20px; min-width: 195px;">
-                </div>
-                <div class="right-content">
-                  <h4>Digital Crypto Artwork</h4>
-                  <span class="author">
-                    <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-                    <h6>Liberty Artist<br><a href="#">@libertyart</a></h6>
-                  </span>
-                  <div class="line-dec"></div>
-                  <span class="bid">
-                    Current Bid<br><strong>2.03 ETH</strong><br><em>($7,200.50)</em>
-                  </span>
-                  <span class="ends">
-                    Ends In<br><strong>2D 06H 30M 25S</strong><br><em>(July 26th, 2022)</em>
-                  </span>
-                  <div class="text-button">
-                    <a href="details.html">View Item Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 currently-market-item all blc">
-              <div class="item">
-                <div class="left-image">
-                  <img src="assets/images/market-01.jpg" alt="" style="border-radius: 20px; min-width: 195px;">
-                </div>
-                <div class="right-content">
-                  <h4>Blockchain Item One</h4>
-                  <span class="author">
-                    <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-                    <h6>Liberty Artist<br><a href="#">@libertyart</a></h6>
-                  </span>
-                  <div class="line-dec"></div>
-                  <span class="bid">
-                    Current Bid<br><strong>3.64 ETH</strong><br><em>($6,600.00)</em>
-                  </span>
-                  <span class="ends">
-                    Ends In<br><strong>6D 05H 40M 50S</strong><br><em>(July 28th, 2022)</em>
-                  </span>
-                  <div class="text-button">
-                    <a href="details.html">View Item Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 currently-market-item all vtr">
-              <div class="item">
-                <div class="left-image">
-                  <img src="assets/images/market-01.jpg" alt="" style="border-radius: 20px; min-width: 195px;">
-                </div>
-                <div class="right-content">
-                  <h4>Virtual Currency Art</h4>
-                  <span class="author">
-                    <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-                    <h6>Liberty Artist<br><a href="#">@libertyart</a></h6>
-                  </span>
-                  <div class="line-dec"></div>
-                  <span class="bid">
-                    Current Bid<br><strong>2.44 ETH</strong><br><em>($8,800.50)</em>
-                  </span>
-                  <span class="ends">
-                    Ends In<br><strong>3D 05H 20M 58S</strong><br><em>(July 14th, 2022)</em>
-                  </span>
-                  <div class="text-button">
-                    <a href="details.html">View Item Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 currently-market-item all vrt dig">
-              <div class="item">
-                <div class="left-image">
-                  <img src="assets/images/market-01.jpg" alt="" style="border-radius: 20px; min-width: 195px;">
-                </div>
-                <div class="right-content">
-                  <h4>Digital Art Item</h4>
-                  <span class="author">
-                    <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-                    <h6>Liberty Artist<br><a href="#">@libertyart</a></h6>
-                  </span>
-                  <div class="line-dec"></div>
-                  <span class="bid">
-                    Current Bid<br><strong>2.50 ETH</strong><br><em>($8,400.50)</em>
-                  </span>
-                  <span class="ends">
-                    Ends In<br><strong>4D 08H 32M 18S</strong><br><em>(July 16th, 2022)</em>
-                  </span>
-                  <div class="text-button">
-                    <a href="details.html">View Item Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 currently-market-item all msc blc">
-              <div class="item">
-                <div class="left-image">
-                  <img src="assets/images/market-01.jpg" alt="" style="border-radius: 20px; min-width: 195px;">
-                </div>
-                <div class="right-content">
-                  <h4>Blockchain Music Design</h4>
-                  <span class="author">
-                    <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-                    <h6>Liberty Artist<br><a href="#">@libertyart</a></h6>
-                  </span>
-                  <div class="line-dec"></div>
-                  <span class="bid">
-                    Current Bid<br><strong>2.44 ETH</strong><br><em>($8,200.50)</em>
-                  </span>
-                  <span class="ends">
-                    Ends In<br><strong>5D 10H 22M 24S</strong><br><em>(July 18th, 2022)</em>
-                  </span>
-                  <div class="text-button">
-                    <a href="details.html">View Item Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Copyright © 2023 <a href="http://www.etecct.com.br/" target="_blank">CPS & Etec Cidade Tiradentes</a>. All rights reserved.
-            Designed by <a target="_blank" href="https://www.instagram.com/rob.css/">Rob</a>, <a target="_blank" href="https://www.instagram.com/daniel.uik/">Daniel</a> and Developer´s team</p>
+          <p>Copyright © 2023 <a href="http://www.etecct.com.br/" target="_blank"><b>CPS & Etec Cidade
+                Tiradentes</b></a>. All
+            rights reserved.
+            Designed by <a target="_blank" href="https://www.instagram.com/rob.css/"><b>Rob</b></a>, <a target="_blank"
+              href="https://www.instagram.com/daniel.uik/"><b>Daniel</b></a> and Developer´s team</p>
         </div>
       </div>
     </div>
@@ -514,6 +376,7 @@ https://templatemo.com/tm-577-liberty-market
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
+  <script src="assets/js/scroll.js"></script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -523,6 +386,7 @@ https://templatemo.com/tm-577-liberty-market
   <script src="assets/js/owl-carousel.js"></script>
 
   <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/changemode.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
 

@@ -141,13 +141,10 @@
     $(".menu-trigger").on('click', function() {
       $(this).toggleClass('active');
       $('.header-area .nav').slideToggle(200);
-      $('.nav').addClass('position-absolute');
 
     });
   }
 
-
-  // Menu elevator animation
   $('.scroll-to-section a[href*=\\#]:not([href=\\#])').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -166,7 +163,7 @@
     }
   });
 
-  /* $(document).ready(function() {
+  $(document).ready(function() {
     $(document).on("scroll", onScroll);
 
     //smoothscroll
@@ -189,9 +186,9 @@
         $(document).on("scroll", onScroll);
       });
     });
-  }); */
+  });
 
-  /* function onScroll(event) {
+  function onScroll(event) {
     var scrollPos = $(document).scrollTop();
     $('.nav a').each(function() {
       var currLink = $(this);
@@ -204,7 +201,7 @@
         currLink.removeClass("active");
       }
     });
-  } */
+  }
 
 
   // Page loading animation

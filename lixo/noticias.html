@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body>
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="./assets/images/logop.png" href="#home" alt="Ícone da ETEC CT">
+            </a>
+            <!-- ***** Logo End ***** -->
+
+            <!-- ***** Barra de pesquisa ***** -->
+
+            <form class="form-pesquisa" role="search" method="get" action="https://www.cps.sp.gov.br/">
+              <input type="search" class="campo-de-busca" placeholder="O que deseja localizar?" value="" name="s" />
+              <button type="submit" class="busca-submit"><i class="fas fa-search"></i></button>
+            </form>
+
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html" class="active">Início</a></li>
+              <li><a href="index.html#noticias">Notícias</a></li>
+              <li><a href="http://www.etecct.com.br/#features" target="_blank">Cursos</a></li>
+              <li><a href="https://www.nube.com.br/top_estagios/medio_tecnico_sp_sp" target="_blank">Vagas</a></li>
+              <li><a href="author.html">Sobre Nós</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <main>
+    <article class="news-article">
+      <h2 id="news-title">Título da Notícia</h2>
+      <p class="author" id="news-author">Por Nome do Autor</p>
+      <p class="date" id="news-date">Data da Publicação</p>
+      <img src="" alt="Imagem da notícia" id="news-image">
+      <p class="content" id="news-content">
+        Conteúdo da Notícia
+      </p>
+    </article>
+  </main>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2023 <a href="http://www.etecct.com.br/" target="_blank">CPS & Etec Cidade Tiradentes</a>.
+            All
+            rights reserved.
+            Designed by <a target="_blank" href="https://www.instagram.com/rob.css/">Rob</a>, <a target="_blank"
+              href="https://www.instagram.com/daniel.uik/">Daniel</a> and Developer´s team</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <script src="assets/js/scroll.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+    const newsData = {
+      title: "A Última SPF do Ano, ou Para Sempre?",
+      author: "Por Nome do Autor",
+      date: "Data da Publicação",
+      image: "news-image.jpg",
+      content: "Após uma edição conturbada da Semana de Projetos Finais (SPF) na ETEC Cidade Tiradentes, surgem questionamentos sobre a continuidade do evento. A SPF é um tradicional evento escolar que ocorre anualmente na maioria das ETECs, com shows de talentos, painéis e apresentações dos alunos.\n\nEntretanto, a última edição da SPF foi marcada por uma rivalidade intensa entre as salas, resultando em gritaria, xingamentos e até mesmo pequenos confrontos. A direção da ETEC está preocupada com o clima hostil que se instaurou durante o evento, colocando em xeque a viabilidade de sua continuidade.\n\nDiante dos acontecimentos, a direção da ETEC está considerando mudanças para o próximo ano. Uma das propostas em análise é substituir as apresentações e shows de talentos por palestras e atividades mais direcionadas ao aprendizado e ao diálogo.\n\nA decisão final sobre o futuro da SPF será discutida em reuniões com os professores, coordenadores e alunos. A intenção é promover um ambiente saudável e construtivo, onde todos os estudantes possam participar de forma pacífica e respeitosa.\n\nFique atento às atualizações para saber mais sobre as decisões tomadas e as novidades relacionadas à SPF na ETEC Cidade Tiradentes."
+    };
+
+    document.getElementById("news-title").innerText = newsData.title;
+    document.getElementById("news-author").innerText = newsData.author;
+    document.getElementById("news-date").innerText = newsData.date;
+    document.getElementById("news-image").src = newsData.image;
+    document.getElementById("news-content").innerText = newsData.content;
+
+  </script>
+</body>
+
+</html>
